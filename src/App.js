@@ -8,6 +8,7 @@ import HookThree from './Hook/HookThree';
 import HookFour from './Hook/HookFour';
 import Accordion from './Accordion/Accordion';
 import AccordionTwo from './Accordion/AccordionTwo';
+import CardTwo from './Card/CardTwo';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <HookFour/>
         <Accordion/>
         <AccordionTwo/>
+        <CardTwo/>
       </div>
     </div>
   );
