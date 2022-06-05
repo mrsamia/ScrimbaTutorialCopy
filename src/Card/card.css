@@ -1,5 +1,5 @@
 .card{
-    width: fit-content;
+    width: fit-content!important;
     margin: 20px;
 }
 .icon_p{
@@ -18,6 +18,6 @@
     padding: 30px;
 }
 .card{
-    width: 300px;
+    width: 300px!important;
     padding-bottom: 30px;
 }

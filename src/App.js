@@ -9,6 +9,8 @@ import HookFour from './Hook/HookFour';
 import Accordion from './Accordion/Accordion';
 import AccordionTwo from './Accordion/AccordionTwo';
 import CardTwo from './Card/CardTwo';
+import CardTest from './Test/CardTest';
+import HeroPart from './Test/HeroPart';
 
 function App() {
   return (
@@ -29,6 +31,9 @@ function App() {
         <Accordion/>
         <AccordionTwo/>
         <CardTwo/>
+        <HeroPart/>
+        <CardTest/>
+        
       </div>
     </div>
   );

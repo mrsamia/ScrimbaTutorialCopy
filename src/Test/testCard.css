@@ -1,0 +1,27 @@
+.card {
+    width: 400px !important;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding-bottom: 70px;
+}
+
+.subtext {
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(49, 47, 47);
+    line-height: 32px;
+}
+
+.title {
+    font-size: 18px;
+    padding-top: 75px;
+}
+
+.body {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action_btn{
+   width: 100px;
+}
