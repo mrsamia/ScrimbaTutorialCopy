@@ -11,6 +11,7 @@ import AccordionTwo from './Accordion/AccordionTwo';
 import CardTwo from './Card/CardTwo';
 import CardTest from './Test/CardTest';
 import HeroPart from './Test/HeroPart';
+import CardThree from './Card/CardThree';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Accordion/>
         <AccordionTwo/>
         <CardTwo/>
+        <CardThree/>
         <HeroPart/>
         <CardTest/>
         
