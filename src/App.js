@@ -12,6 +12,8 @@ import CardTwo from './Card/CardTwo';
 import CardTest from './Test/CardTest';
 import HeroPart from './Test/HeroPart';
 import CardThree from './Card/CardThree';
+import CountCard from './DashBoard/CountSection/CountCard';
+import MainDashboard from './DashBoard/Main/MainDashboard';
 
 function App() {
   return (
@@ -26,16 +28,19 @@ function App() {
       <div className='pt-5'>
         <h3>Hook Practice</h3>
         <Hook_One />
-        <HookTwo/>
-        <HookThree/>
-        <HookFour/>
-        <Accordion/>
-        <AccordionTwo/>
-        <CardTwo/>
-        <CardThree/>
-        <HeroPart/>
-        <CardTest/>
-        
+        <HookTwo />
+        <HookThree />
+        <HookFour />
+        <Accordion />
+        <AccordionTwo />
+        <CardTwo />
+        <CardThree />
+        <HeroPart />
+        <CardTest />
+      </div>
+      <div className='pt-5'>
+        <h3>DashBoard</h3>
+        <MainDashboard/>
       </div>
     </div>
   );
