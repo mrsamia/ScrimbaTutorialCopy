@@ -1,9 +1,10 @@
+
 const CardData = [
     {
         percent: "+6%",
         number: "43",
         name: "New Tickets",
-        isPercent:true
+        isPercent:true   
     },
     {
         percent: "-3%",

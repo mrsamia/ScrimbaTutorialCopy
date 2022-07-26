@@ -1,3 +1,13 @@
 .maain{
     background-color: rgb(250, 250, 250);
+    border-top: 1px solid rgb(185, 175, 175);
+}
+.width{
+    width: 8%!important;
+}
+.wiidth{
+    width: 10%!important;
+}
+.top_border{
+    border-top: 1px solid rgb(185, 175, 175);
 }

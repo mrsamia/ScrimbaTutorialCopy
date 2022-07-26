@@ -6,7 +6,10 @@ import './caard.css';
 function CountCard(props) {
   return (
     <div className='container pt-5'>
-      <div className='row'>
+      <div className='d-flex justify-content-start pt-4 pb-4'>
+        <h5>Dashboard</h5>
+      </div>
+      <div className='row '>
         {
           CardData.map((e) => {
             return (
