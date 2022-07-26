@@ -11,3 +11,14 @@
 .top_border{
     border-top: 1px solid rgb(185, 175, 175);
 }
+.wrapper{
+    margin-bottom: 0px!important;
+    border-left: 1px solid rgb(185, 175, 175);
+    border-right: 1px solid rgb(185, 175, 175);
+    border-top: 1px solid rgb(185, 175, 175);
+}
+.development{
+    padding-left: 21px!important;
+    margin-left: 0px!important;
+    display: -webkit-box;
+}

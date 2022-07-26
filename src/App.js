@@ -14,7 +14,6 @@ import HeroPart from './Test/HeroPart';
 import CardThree from './Card/CardThree';
 import CountCard from './DashBoard/CountSection/CountCard';
 import MainDashboard from './DashBoard/Main/MainDashboard';
-import NavItems from './DashBoard/Nav/NavItems';
 import DashNav from './DashBoard/Nav/DashNav';
 
 function App() {
