@@ -1,0 +1,21 @@
+.Ac{
+    padding-left: 550px;
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 55%;
+    background-color: black;
+    color: white;
+    padding: 20px;  
+}
+.content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 55%;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
