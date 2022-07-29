@@ -10,7 +10,7 @@ function DashNav(props) {
             {
                 NavData.map((e) => {
                     return(
-                    <div className='col-2 wiidth'>
+                    <div className=' col-sm-12 col-md-6 col-lg-2 wiidth'>
                         <NavItems
                             icon={e.icon}
                             name={e.name}

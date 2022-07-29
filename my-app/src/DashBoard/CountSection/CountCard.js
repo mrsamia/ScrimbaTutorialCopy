@@ -9,11 +9,11 @@ function CountCard(props) {
       <div className='d-flex justify-content-start pt-4 pb-4'>
         <h5>Dashboard</h5>
       </div>
-      <div className='row '>
+      <div className='row'>
         {
           CardData.map((e) => {
             return (
-              <div className='col-2'>
+              <div className='col-sm-12 col-md-4 col-lg-2 '>
                 <CardItems
                   percent={e.percent}
                   number={e.number}

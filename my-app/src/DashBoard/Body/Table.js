@@ -7,7 +7,7 @@ function Table(props) {
         <div className='container pt-5'>
             <h5 className='development'>Development Activity</h5>
             <div className='row'>
-                <div className='col-6'>
+                <div className=' col-md-12 col-lg-6'>
                     <table class="table  wrapper ">
                         <thead>
                             <tr>
@@ -40,17 +40,17 @@ function Table(props) {
                     </table>
                 </div>
 
-                <div className='col-6'>
+                <div className=' col-md-12 col-lg-6'>
                     <div className='documentationWrapper'>
                         <p className='fixAlign'>Read our documentation with code samples</p>
                     </div>
                     <div className='row'>
-                        <div className='col-6'>
+                        <div className=' col-md-12 col-lg-6'>
                             <div className='box'>
                                 <p className='boxTitle'>Chart Title</p>
                             </div>
                         </div>
-                        <div className='col-6'>
+                        <div className=' col-md-12 col-lg-6'>
                             <div className='box'>
                             <p className='boxTitle'>New Feedback</p>
                             </div>

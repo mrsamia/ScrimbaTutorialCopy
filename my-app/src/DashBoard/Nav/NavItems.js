@@ -3,10 +3,10 @@ function NavItems(props) {
     return (
         <div>
             <div className='row'>
-                <div className='col-6 width'>
+                <div className='col-sm-3 col-sm-4 col-lg-6 width'>
                  <p>{props.icon}</p>
                 </div>
-                <div className='col-6'>
+                <div className='col-sm-3 col-sm-4 col-lg-6'>
                     <p>{props.name}</p>
                 </div>
             </div>
