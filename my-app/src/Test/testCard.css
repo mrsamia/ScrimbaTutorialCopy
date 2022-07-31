@@ -1,5 +1,5 @@
 .card {
-    width: 400px !important;
+    width: 350px !important;
     box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
     padding-bottom: 70px;
 }
@@ -24,4 +24,7 @@
 }
 .action_btn{
    width: 100px;
+}
+@media only screen and (max-width: 992px) {
+   
 }

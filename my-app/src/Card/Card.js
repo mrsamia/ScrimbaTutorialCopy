@@ -10,7 +10,7 @@ function Card(props) {
                 {
                     Data.map((e)=>{
                         return(
-                            <div className='col-4'>
+                            <div className='col-sm-12 col-md-6 col-lg-4'>
                             <CardItems
                                 name={e.name}
                                 phone={e.phone}

@@ -5,10 +5,10 @@ function Card(props) {
     return (
         <div className='container pt-5'>
             <div className='row'>
-                <div className='col-5'>
+                <div className='col-sm-12 col-lg-5'>
                     <img src={props.imgUrl} className="img_size" />
                 </div>
-                <div className='col-7 d-flex align-items-center'>
+                <div className='col-sm-12 col-lg-7 d-flex align-items-center'>
                     <div>
                         <div className='row'>
                             <div className='col-6 d-flex justify-content-start'>

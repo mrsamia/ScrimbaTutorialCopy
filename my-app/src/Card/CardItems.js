@@ -7,7 +7,7 @@ function CardItems(props) {
         <div className='container d-flex justify-content-center'>
             <div className='card pb-4'>
                 <div>
-                    <img src={require('./image/catOne.webp')}/>
+                    <img className='cat' src={require('./image/catOne.webp')}/>
                 </div>
                 <div className='pt-4 pb-3 d-flex justify-content-center align-items-center'>
                     <FaUser/>

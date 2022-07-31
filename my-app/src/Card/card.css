@@ -17,7 +17,12 @@
     height: 250px;
     padding: 30px;
 }
+
 .card{
-    width: 300px!important;
+    /* width: 300px!important; */
     padding-bottom: 30px;
+}
+.cat{
+    width: 250px;
+    padding-top: 40px;
 }
