@@ -9,7 +9,7 @@ function Card(props) {
                     <img src={props.imgUrl} className="img_size" />
                 </div>
                 <div className='col-sm-12 col-lg-7 d-flex align-items-center'>
-                    <div>
+                    <div className='responsive'>
                         <div className='row'>
                             <div className='col-6 d-flex justify-content-start'>
                                 <p>{props.location}</p>
