@@ -15,6 +15,14 @@ import CardThree from './Card/CardThree';
 import CountCard from './DashBoard/CountSection/CountCard';
 import MainDashboard from './DashBoard/Main/MainDashboard';
 import DashNav from './DashBoard/Nav/DashNav';
+import Practice from "./Practice/Practice";
+// import MultistepForm from "./Practice/MultistepForm";
+import MultistepFromTwo from "./Practice/MultistepFromTwo";
+import Increment from "./Practice/Increment";
+import Multiplication from "./Practice/Multiplication";
+import MultiplicationBtn from "./Practice/MultiplicationBtn";
+import InputForm from "./Practice/InputForm";
+import MultiplicationTwo from "./Practice/MultiplicationTwo";
 
 function App() {
   return (
@@ -38,6 +46,16 @@ function App() {
         <CardThree />
         <HeroPart />
         <CardTest />
+      </div>
+      <div className='pt-5 pb-5'>
+         <Practice/>
+        {/* <MultistepForm/> */}
+        <MultistepFromTwo/>
+        <Increment/>
+        <Multiplication/>
+        <InputForm/>
+        <MultiplicationBtn/>
+        <MultiplicationTwo/>
       </div>
       <div className='pt-5'>
         <DashNav />
